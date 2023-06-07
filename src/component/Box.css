@@ -1,0 +1,14 @@
+.mainBox{
+display: flex;
+flex-wrap: wrap;
+
+}
+.controlImage {
+  width: 50%;
+ 
+
+}
+.controlTitle {
+  background-color: aquamarine;
+width: 50%;
+}
