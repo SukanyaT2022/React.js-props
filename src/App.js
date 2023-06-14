@@ -2,14 +2,24 @@ import Box from './component/Box.js';
 import './App.css';
 import Data from './component/Data.js';
 import Grid from './component/Grid.js';
+import Footer from './component/footer.js';
+import UseState from './component/UseState.js';
+import Increment from './component/Increment.js';
+import ChangeText from './component/ChangeText.js';
 function App() {
  
   return (
    <div className='wrapper'>
 
-<Box propsName={Data} />
-<Grid propsGrid={Data}/> 
+{/* <Box propsName={Data} /> */}
+{/* <Grid propsGrid={Data}/> 
+<Footer propsFooter={Data}/> */}
 {/* what inside of {} */}
+
+<UseState/>
+<Increment/>
+<ChangeText/>
+
 
    </div>
   );
