@@ -1,0 +1,16 @@
+.wrapper{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.controlElement2{
+
+
+}
+.targetIMG{
+width: 50%;
+}
+
+.targetTitle{
+    text-align: center;
+}

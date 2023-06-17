@@ -6,6 +6,8 @@ import Footer from './component/footer.js';
 import UseState from './component/UseState.js';
 import Increment from './component/Increment.js';
 import ChangeText from './component/ChangeText.js';
+import ChangText2 from './component/ChangText2.js';
+import PracticeProps from './component/PracticeProps.js';
 function App() {
  
   return (
@@ -15,10 +17,11 @@ function App() {
 {/* <Grid propsGrid={Data}/> 
 <Footer propsFooter={Data}/> */}
 {/* what inside of {} */}
-
-<UseState/>
+<PracticeProps props4Practice ={Data}/>
+{/* <UseState/>
 <Increment/>
 <ChangeText/>
+<ChangText2/> */}
 
 
    </div>
